@@ -1,0 +1,103 @@
+:root {
+    /* # Front-end Style Guide */
+
+    /* ## Layout
+    
+    The designs were created to the following widths: */
+
+    /* ## Colors
+    
+    ### Primary
+     */
+    --strong-cyan: hsl(172, 67%, 45%);
+
+    /* ### Neutral
+     */
+    --very-dark-cyan: hsl(183, 100%, 15%);
+    --dark-grayish-cyan: hsl(186, 14%, 43%);
+    --grayish-cyan: hsl(184, 14%, 56%);
+    --light-grayish-cyan: hsl(185, 41%, 84%);
+    --very-light-grayish-cyan: hsl(189, 41%, 97%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--light-grayish-cyan);
+}
+
+.cabecalho {
+    margin-top: 15px;
+    padding-left: 19rem;
+    font-size: 15px;
+    color: var(--very-dark-cyan);
+}
+
+.caixa {
+    margin: 5rem;
+    width: 90vh;
+    height: 45vh;
+    border-radius: 15px;
+
+    background-color: var(--white);
+}
+
+.titulo {
+
+    padding-left: 3rem;
+    color: var(--very-dark-cyan);
+}
+
+.resultado {
+    text-align: end;
+    margin-left: 3rem;
+
+    width: 18rem;
+    height: 2rem;
+    
+    border: 1px solid var(--strong-cyan);
+    color: var(--very-dark-cyan);
+    background-color: var(--very-light-grayish-cyan);
+}
+
+.caixa2 {
+    
+    margin: -3rem;
+    margin-left: 420px;
+
+    width: 35vh;
+    height: 35vh;
+    border-radius: 15px;
+
+    background-color: var(--very-dark-cyan);
+}
+
+.caixa2 h1 {
+    text-align: end;
+    line-height: 60px;
+    color: var(--strong-cyan);
+}
+.reset{ 
+   display: flex;
+   justify-content: center;
+   
+   margin-left: 2rem;
+    
+    margin-top: 8rem;
+    height: 45px;
+    width: 15rem;
+    
+    border: 1px solid var(--strong-cyan);
+    background-color: var(--strong-cyan);
+}
+
+.reset h1{
+    
+    color: var(--very-dark-cyan);
+    
+}
